@@ -1,0 +1,103 @@
+body, html {
+    font-family: 'ABC Helveesti Plus Variable Edu';
+    background-color:rgb(255, 255, 255);
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.container {
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 25pt;
+}
+
+marquee {
+    font-size: 50pt;
+    padding: 2vh;
+    margin: -0.75vh;
+}
+
+nav {
+    display: grid; grid-template-columns: repeat(3, 1fr);
+    width: 99vw;
+    margin: 1vh;
+    background: transparent;
+}
+
+ol, li {
+    list-style-type: none;
+}
+
+img {
+    max-height: 100%; max-width: 100%;
+}
+
+h1 {
+    font-family: 'Migra';
+    font-size: 75pt;
+    font-weight: lighter;
+    line-height: 45pt;
+}
+
+.block-module {
+    display: grid; grid-template-columns: 1fr 1fr;
+    max-width: 100vw;
+    height: auto;
+}
+
+.block-module-left, .block-module-right {
+    width: 50vw;
+}
+
+.block-module-color {
+    background-color: white;
+    margin: 0 auto;
+    margin-left: 2vw;
+    text-align: justify;
+}
+
+.block-module-color p {
+    width: 50%;
+}
+
+.block-module-right img {
+    object-fit: fill;
+}
+
+footer {
+    text-align: center;
+}
+
+button {
+    font-family: 'ABC Helveesti Plus Variable Edu';
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    font-size: 12pt;
+    margin-left: -6px;
+}
+
+@font-face {
+    font-family: 'ABC Helveesti Plus Variable Edu';
+    src: url('fonts/ABCHelveestiPlusVariableEdu-Regular.woff2') format('woff2'),
+        url('fonts/ABCHelveestiPlusVariableEdu-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Migra';
+    src: url('fonts/fonts/Migra-Extralight.woff2') format('woff2'),
+        url('fonts/fonts/Migra-Extralight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
